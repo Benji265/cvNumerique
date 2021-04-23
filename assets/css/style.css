@@ -1,9 +1,13 @@
+/**** LES FONT ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300&family=Varela+Round&display=swap');
+
+/**** MODIF GLOBAL ****/
+
 *{
     margin: 0;
     padding: 0;
 }
-
-/**** MODIF GLOBAL ****/
 
 .anchor{
     display: block;
@@ -168,6 +172,10 @@
     grid-column: 1 / span 5;
 }
 
+.styleH1Compt h1{
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.747);
+}
+
 .styleCompt{
     display: grid;
     grid-column: auto auto auto auto auto;
@@ -314,6 +322,10 @@
     grid-column: 1 / span 2;
 }
 
+.styleH1Exp h1{
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.747);
+}
+
 .styleExp .text1 ul li{
     list-style: none;
 }
@@ -331,4 +343,18 @@
 
 .text1{
     grid-column: 1;
+}
+
+.text2{
+    grid-column: 2;
+}
+
+.widthImageExp{
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin-left: 3em;
+    border-radius: 2%;
+    box-shadow: 10px 5px 5px black;
+    grid-column: 2;
 }
